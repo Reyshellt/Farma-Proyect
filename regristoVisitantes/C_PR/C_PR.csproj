@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{059451A8-17FB-49D1-8209-AA8856B722CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>C_PR</RootNamespace>
+    <AssemblyName>C_PR</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Users\reysh\Downloads\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAulas.Designer.cs">
+      <DependentUpon>FormAulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEdificios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEdificios.Designer.cs">
+      <DependentUpon>FormEdificios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEstadistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEstadistica.Designer.cs">
+      <DependentUpon>FormEstadistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuarios.Designer.cs">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisitantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisitantes.Designer.cs">
+      <DependentUpon>FormVisitantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisitas.Designer.cs">
+      <DependentUpon>FormVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAulas.resx">
+      <DependentUpon>FormAulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEdificios.resx">
+      <DependentUpon>FormEdificios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEstadistica.resx">
+      <DependentUpon>FormEstadistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuarios.resx">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisitantes.resx">
+      <DependentUpon>FormVisitantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisitas.resx">
+      <DependentUpon>FormVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C_Entidades\C_Entidades.csproj">
+      <Project>{9c9e0fe6-9a33-4df2-854e-9d7ebc523e3f}</Project>
+      <Name>C_Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C_LN\C_LN.csproj">
+      <Project>{0ea76703-7320-4d2d-9ff5-7edf9c028266}</Project>
+      <Name>C_LN</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\cerrar-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\perfil-del-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\selfie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\aula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\oficina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\tarjeta-de-identificacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\viaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\grafico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes\Business Plan-bro.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

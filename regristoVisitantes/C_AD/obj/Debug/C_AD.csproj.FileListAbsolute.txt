@@ -1,0 +1,9 @@
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\bin\Debug\C_AD.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\bin\Debug\C_AD.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\obj\Debug\C_AD.csproj.AssemblyReference.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\obj\Debug\C_AD.csproj.CoreCompileInputs.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\obj\Debug\C_AD.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\obj\Debug\C_AD.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\bin\Debug\C_Entidades.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\bin\Debug\C_Entidades.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_AD\obj\Debug\C_AD.csproj.CopyComplete

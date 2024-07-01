@@ -1,0 +1,6 @@
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\bin\Debug\C_Entidades.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\bin\Debug\C_Entidades.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\obj\Debug\C_Entidades.csproj.AssemblyReference.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\obj\Debug\C_Entidades.csproj.CoreCompileInputs.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\obj\Debug\C_Entidades.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_Entidades\obj\Debug\C_Entidades.pdb

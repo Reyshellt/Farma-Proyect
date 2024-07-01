@@ -1,0 +1,11 @@
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_LN.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_LN.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_AD.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_AD.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\obj\Debug\C_LN.csproj.AssemblyReference.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\obj\Debug\C_LN.csproj.CoreCompileInputs.cache
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\obj\Debug\C_LN.csproj.CopyComplete
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\obj\Debug\C_LN.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\obj\Debug\C_LN.pdb
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_Entidades.dll
+C:\Cshart\registroVisitantes\regristoVisitantes\C_LN\bin\Debug\C_Entidades.pdb
